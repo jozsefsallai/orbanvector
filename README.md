@@ -8,7 +8,7 @@ be added into the vector. The others are likely immigrants.
 Use as you'd normally use a vector:
 
 ```cpp
-orban::vector my_vector;
+orban::vector<int> my_vector;
 
 for (int i = 0; i < 100; i++) {
   my_vector.push_back(i + 1);
